@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "release_tag": "viewer-2026-11-18-1",
+  "asset_name": "gte-viewer.zip",
+  "sha256": "16a8c50b8cff8fb5f38c3f6672f11a2ecaba4a1e7b40cbe6d499e0a1a7d0f4b7",
+  "bytes": 20441072,
+  "source_commit": "38794e0136fdd32b0e6d20a2a794bb06fbf52e22",
+  "engines": [
+    "cfm-leap-1b",
+    "cfm56-3",
+    "cfm56-5b",
+    "cfm56-7b",
+    "gtcp36-4",
+    "jt8d",
+    "pt6a",
+    "pw127",
+    "pw150a",
+    "rr-spey-555",
+    "sam146",
+    "tv3-117",
+    "v2527-a5"
+  ]
+}

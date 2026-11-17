@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "passed": true,
+  "source_commit": "38794e0136fdd32b0e6d20a2a794bb06fbf52e22",
+  "engines": [
+    "cfm-leap-1b",
+    "cfm56-3",
+    "cfm56-5b",
+    "cfm56-7b",
+    "gtcp36-4",
+    "jt8d",
+    "pt6a",
+    "pw127",
+    "pw150a",
+    "rr-spey-555",
+    "sam146",
+    "tv3-117",
+    "v2527-a5"
+  ],
+  "checks": [
+    {
+      "name": "Pages artifact tests",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_s": 0.37
+    },
+    {
+      "name": "npm run lint",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_s": 3.7
+    },
+    {
+      "name": "npm test",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_s": 1.78
+    },
+    {
+      "name": "npm run test:cad",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_s": 7.3
+    },
+    {
+      "name": "npm run test:freecad",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_s": 148.41
+    },
+    {
+      "name": "npm run e2e",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_s": 37.54
+    },
+    {
+      "name": "npm run e2e:mobile",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_s": 22.79
+    }
+  ],
+  "browser_rendering": "hardware",
+  "method": "Approved teaching GLBs; full workstation release gates; desktop project-path and mobile browser checks."
+}

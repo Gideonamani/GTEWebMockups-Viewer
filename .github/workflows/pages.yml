@@ -1,0 +1,50 @@
+name: Publish teaching viewer
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - docs/github-pages-release.json
+      - scripts/pages_artifact.py
+      - .github/workflows/pages.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  package:
+    if: github.event_name == 'workflow_dispatch' || vars.PAGES_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: read
+    steps:
+      - uses: actions/checkout@v6
+      - name: Restore the checksum-pinned and validated viewer
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/pages_artifact.py --repo "$GITHUB_REPOSITORY"
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: build/github-pages/site
+  deploy:
+    needs: package
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy the student viewer
+        id: deployment
+        uses: actions/deploy-pages@v4
