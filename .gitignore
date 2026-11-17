@@ -1,0 +1,9 @@
+build/
+*.zip
+__pycache__/
+*.pyc
+*.glb
+*.gltf
+*.FCStd
+*.step
+*.blend
