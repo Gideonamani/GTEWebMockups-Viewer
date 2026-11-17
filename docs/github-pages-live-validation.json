@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "passed": true,
+  "url": "https://gideonamani.github.io/GTEWebMockups-Viewer/",
+  "release_tag": "viewer-2026-11-18-1",
+  "archive_sha256": "16a8c50b8cff8fb5f38c3f6672f11a2ecaba4a1e7b40cbe6d499e0a1a7d0f4b7",
+  "deployment_run": "https://github.com/Gideonamani/GTEWebMockups-Viewer/actions/runs/44184985523",
+  "errors": [],
+  "verified_public_files": 49,
+  "verified_public_bytes": 30735655,
+  "desktop": {
+    "passed": true,
+    "checked_engines": 13,
+    "max_active_decoder_workers_after_load": 0,
+    "checked_meshes": 2072,
+    "touchable_plate_callouts": 184
+  },
+  "phone": {
+    "passed": true,
+    "layouts": [
+      [
+        320,
+        568
+      ],
+      [
+        360,
+        800
+      ],
+      [
+        375,
+        667
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        430,
+        932
+      ],
+      [
+        667,
+        375
+      ],
+      [
+        844,
+        390
+      ],
+      [
+        932,
+        430
+      ]
+    ],
+    "touch_targets_min_px": 44,
+    "reference_cases": true,
+    "read_fills_workspace": true,
+    "pinch_did_not_select": true,
+    "phone_activity_scored": true,
+    "search_in_reduced_viewport": true,
+    "desktop_controls_restored": true
+  },
+  "elapsed_s": 121.67
+}
