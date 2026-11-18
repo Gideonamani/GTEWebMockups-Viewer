@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "passed": true,
-  "source_commit": "38794e0136fdd32b0e6d20a2a794bb06fbf52e22",
+  "source_commit": "e9a3a40e2c89002d57942d42ceaaf1b9d9155ee6",
   "engines": [
     "cfm-leap-1b",
     "cfm56-3",
@@ -22,43 +22,45 @@
       "name": "Pages artifact tests",
       "passed": true,
       "exit_code": 0,
-      "elapsed_s": 0.37
+      "elapsed_s": 1.08
     },
     {
       "name": "npm run lint",
       "passed": true,
       "exit_code": 0,
-      "elapsed_s": 3.7
+      "elapsed_s": 6.25
     },
     {
       "name": "npm test",
       "passed": true,
       "exit_code": 0,
-      "elapsed_s": 1.78
+      "elapsed_s": 2.54
     },
     {
       "name": "npm run test:cad",
       "passed": true,
       "exit_code": 0,
-      "elapsed_s": 7.3
+      "elapsed_s": 7.8
     },
     {
       "name": "npm run test:freecad",
       "passed": true,
       "exit_code": 0,
-      "elapsed_s": 148.41
+      "elapsed_s": 248.91,
+      "reused_from": "f85e0a6",
+      "basis": "FreeCAD suite passed during this update. Only viewer and browser-test code changed afterward."
     },
     {
       "name": "npm run e2e",
       "passed": true,
       "exit_code": 0,
-      "elapsed_s": 37.54
+      "elapsed_s": 53.38
     },
     {
       "name": "npm run e2e:mobile",
       "passed": true,
       "exit_code": 0,
-      "elapsed_s": 22.79
+      "elapsed_s": 32.06
     }
   ],
   "browser_rendering": "hardware",

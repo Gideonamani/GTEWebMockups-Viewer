@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "release_tag": "viewer-2026-11-18-1",
+  "release_tag": "viewer-2026-11-18-2",
   "asset_name": "gte-viewer.zip",
-  "sha256": "16a8c50b8cff8fb5f38c3f6672f11a2ecaba4a1e7b40cbe6d499e0a1a7d0f4b7",
-  "bytes": 20441072,
-  "source_commit": "38794e0136fdd32b0e6d20a2a794bb06fbf52e22",
+  "sha256": "20b90622533743d9a02205699ebe45cb96fc6bbdd6b8ba340d71bf702c8e0eca",
+  "bytes": 20441823,
+  "source_commit": "e9a3a40e2c89002d57942d42ceaaf1b9d9155ee6",
   "engines": [
     "cfm-leap-1b",
     "cfm56-3",
