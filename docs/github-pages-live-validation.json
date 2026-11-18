@@ -2,21 +2,56 @@
   "schema_version": 1,
   "passed": true,
   "url": "https://gideonamani.github.io/GTEWebMockups-Viewer/",
-  "release_tag": "viewer-2026-11-18-1",
-  "archive_sha256": "16a8c50b8cff8fb5f38c3f6672f11a2ecaba4a1e7b40cbe6d499e0a1a7d0f4b7",
-  "deployment_run": "https://github.com/Gideonamani/GTEWebMockups-Viewer/actions/runs/44184985523",
+  "release_tag": "viewer-2026-11-18-2",
+  "archive_sha256": "20b90622533743d9a02205699ebe45cb96fc6bbdd6b8ba340d71bf702c8e0eca",
+  "deployment_run": "https://github.com/Gideonamani/GTEWebMockups-Viewer/actions/runs/44212004327",
   "errors": [],
   "verified_public_files": 49,
-  "verified_public_bytes": 30735655,
+  "verified_public_bytes": 30739061,
   "desktop": {
     "passed": true,
     "checked_engines": 13,
+    "theme": {
+      "follows_system_initially": true,
+      "persists_selection": true,
+      "updates_viewer_and_ui": true
+    },
     "max_active_decoder_workers_after_load": 0,
     "checked_meshes": 2072,
     "touchable_plate_callouts": 184
   },
   "phone": {
     "passed": true,
+    "canvas_background_pixels": {
+      "light": {
+        "pixel": [
+          220,
+          229,
+          232,
+          255
+        ],
+        "expected": [
+          220,
+          229,
+          232
+        ],
+        "context_lost": false
+      },
+      "dark": {
+        "pixel": [
+          37,
+          49,
+          56,
+          255
+        ],
+        "expected": [
+          37,
+          49,
+          56
+        ],
+        "context_lost": false
+      }
+    },
     "layouts": [
       [
         320,
@@ -52,6 +87,7 @@
       ]
     ],
     "touch_targets_min_px": 44,
+    "theme_picker": true,
     "reference_cases": true,
     "read_fills_workspace": true,
     "pinch_did_not_select": true,
@@ -59,5 +95,5 @@
     "search_in_reduced_viewport": true,
     "desktop_controls_restored": true
   },
-  "elapsed_s": 121.67
+  "elapsed_s": 148.17
 }
